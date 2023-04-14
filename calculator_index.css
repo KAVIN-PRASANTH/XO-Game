@@ -1,0 +1,138 @@
+body{
+  
+    background-image:url("img55.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    overflow: hidden;
+}
+.container{
+    height: 100px;
+    width:200px;
+    padding:50px;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    background:linear-gradient(65deg,red,orange,skyblue,deeppink);
+    
+}
+#petsbody{
+    background-image: none;
+}
+.kavinpets{
+    width:800px;
+    height:500px;
+    border:2px solid black;
+    margin-left:20%;
+    border-radius: 50px;
+    animation: kavin 25s;
+}
+@keyframes kavin{
+    0%{
+       background-image: url("pet1.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+    }
+    10%{
+        background-image: url("love4.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    20%{
+        background-image: url("love5.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    30%{
+        background-color:blue;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    40%{
+        background-color:green;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    50%{
+        background-color:yellow;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    60%{
+        background-color:red;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    70%{
+        background-image: url("img66.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    80%{
+        background-image: url("img112.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    90%{
+        background-image: url("img55.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+       display: flex;
+
+    }
+    100%{
+        background-image: url("love4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        display: flex;
+    }
+}
+#kavinh1{
+    background:linear-gradient(45deg,red,yellow,pink,lightgreen);
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}

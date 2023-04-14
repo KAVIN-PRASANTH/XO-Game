@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="game_page.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="container">
+    <table id="table1" border="1px">
+        <tr>
+            <th id="score_box" colspan="2">𝓢𝓬𝓸𝓻𝓮</th>
+        </tr>
+        <tr>
+            <th class="table1_allclass" id="table1_player1">PLAYER-1</th>
+            <th class="table1_allclass" >0</th>
+        </tr>
+        <tr>
+            <th class="table1_allclass" id="table1_player2">PLAYER-2</th>
+            <th class="table1_allclass">0</th>
+        </tr>
+        
+        
+    </table>
+        <div id="round">╰☆☆ 𝕽𝖔𝖚𝖓𝖉 ☆☆╮ 1</div>
+        <table id="table2">
+            <tr>
+                <td id="table2_playernames" colspan="3">PLAYER X  PLAYER Y</td>
+            </tr>
+            <tr>
+                <th class="all" onclick="box(0)"></th>
+                <th class="all" onclick="box(1)"></th>
+                <th class="all" onclick="box(2)"></th>
+            </tr>
+            <tr>
+                <th class="all" onclick="box(3)"></th>
+                <th class="all" onclick="box(4)"></th>
+                <th class="all" onclick="box(5)"></th>
+            </tr>
+            <tr>
+                <th class="all" onclick="box(6)"></th>
+                <th class="all" onclick="box(7)"></th>
+                <th class="all" onclick="box(8)"></th>
+            </tr>   
+        </table>
+        <div id="congratulation">
+            <img src="white.gif" id="congratulation_img1">
+            <img src="victory.gif" id="congratulation_img2">
+            <span id="congratulation_text">TIME IS GOING</span>
+        </div>
+        <button id="button" onclick="next_round()">NEXT ROUND</button>
+    </div>
+    
+    <script src="game_page.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("f.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    display: flex;
+    
+}
+
+.container{
+    width:100%;
+    height:99vh;
+    border:none;
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.small_container{
+    width:500px;
+    height:300px;
+    padding:20px;    
+    margin-top: 180px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    color:white;
+    transition:.5s;
+}
+#box1,#box2,#box3,#box4{
+    font-size: 30px;
+}
+h1{
+    color:red;
+    width: 100%;
+}
+#box1:hover,#box2:hover,#box3:hover,#box4:hover{
+    letter-spacing: 3px;
+    color:rgb(255, 30, 0);
+    background-color:floralwhite;
+    border-radius: 60px;
+    padding:5px 0;
+}
+#img1{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top:70px;
+    position:absolute;
+    transition: 1s;
+   
+}
+#img2{
+    position: absolute;
+    margin-top:35.5%;
+    margin-left:87%;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+#img3{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    display: none;
+}
+#dragon{
+    position: absolute;
+    width:400px;
+    height:400px;
+    margin-left: 800px;
+}
+#kakashi{
+    width:680px;
+    height:400px;
+    position: absolute;
+    margin-left: -1000px;
+    margin-top:80px
+}
+#head_container{
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    color:blue;
+}
+

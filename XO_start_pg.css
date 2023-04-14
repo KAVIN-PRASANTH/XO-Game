@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#first_container{
+    width:100%;
+    height:100vh;
+    background-image: url("hexwave-gif.2386493");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start_button{
+    background-color: blue;
+    padding: 50px 80px;
+    border-radius:50px;
+    transition: .5s;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#start_button:hover{
+    border-radius:50%;
+    padding: 70px 100px;
+    letter-spacing: 5px;
+    background-color: red;
+    color: white;
+}
+#start_button:hover~#first_container_img2,#start_button:hover~#first_container_img1{
+    display:block;
+} 
+#first_container_img1{
+    position: absolute;
+    margin-left:-25%;
+    margin-top: -4%;
+    height:600px;
+    transition:10s;
+    
+    
+}
+#first_container_img2{
+    position: absolute;
+    margin-left:25%;
+    margin-top: 1%;
+    height:550px;
+    transition: 10s;
+    
+}
+#first_container_span{
+    position:absolute;
+    margin-top: -40%;
+    font-size:50px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<second.....page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*#body_second{
+    background-image: url("hexwave-gif.2386493");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    z-index: -1;
+}
+.s_index_all{
+    padding:5px 40px;
+    width:200px;
+    text-align: left;
+}
+#s_form_container{
+    background-color: rgb(48, 216, 228);
+    padding:30px 60px;
+    text-align: center;
+}
+#s_submit{
+    padding:10px 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+    transition: .5s;
+}
+#s_submit:hover{
+    padding:10px 40px;
+    background-color: orange;
+    letter-spacing:3px;
+
+}
+#s_form_span{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}*/

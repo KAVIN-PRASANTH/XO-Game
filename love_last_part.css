@@ -1,0 +1,83 @@
+body{
+    background-image: url("love3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    overflow: hidden;
+}
+.kavin{
+    color:red;
+    transform:translate(599px,300px);
+    transition: 2s;
+    margin-left: -140px;
+    position: absolute;
+    animation: kavinka 5s forwards;
+    
+}
+@keyframes kavinka{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity: .5;
+        
+    }
+    100%{
+        opacity: 1;
+        width:60px;
+        padding:70px;
+        font-size:60px;
+    }
+
+}
+/*@keyframes kavinka{
+    0%{
+     visibility: hidden;
+     color: white;
+     transform: rotate(60deg);
+    }
+    25%{
+        height: 30;
+        width:30;
+        opacity: 0.5;
+        color:wheat;
+        transform: rotate(260deg);
+    }
+    50%{
+        
+        width:30px;
+        opacity: 0.6;
+        color:white;
+        transform: rotate(110deg);
+    }
+    75%{
+        opacity:0.7;
+        color:wheat;
+        }    100%{
+        visibility:visible;
+        width:60px;
+        opacity: 1;
+        
+    }
+}
+*/
+.score{
+    color:white;
+    font-size: 30px;
+    border:none;
+    cursor: pointer;
+    width:400px;
+    text-align: center;
+    transform: translate(720px,350px);
+    padding:10px;
+    border-radius: 50px;
+    background:linear-gradient(90deg,yellow,red,orange,pink);
+    margin-top: 250px;
+    margin-left:-30px;
+    position:absolute;
+}
+#button{
+    display:none;
+
+}
